@@ -7,7 +7,7 @@
   url('iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
 }
 
-.iconfont {     
+.iconfont {
   font-family:"iconfont" !important;
   font-size:16px;
   font-style:normal;
@@ -18,3 +18,9 @@
 .icon-tongxunlu:before { content: "\e6be"; }
 .icon-cuban2lianxirentongxunlu:before { content: "\e866"; }
 .icon-xiao47:before { content: "\e892"; }
+.icon-duihao:before { content: "\e606"; }
+.icon-biaoqian:before { content: "\e685"; }
+.icon-shuaxin:before { content: "\e63d"; }
+.icon-ren:before { content: "\e628"; }
+.icon-zliconaccount:before { content: "\e636"; }
+.icon-1433143414icon4thumbup:before { content: "\e600"; }
