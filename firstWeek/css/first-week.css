@@ -2,7 +2,7 @@
 	height: 100%;
 }*/
 body {
-	/*font-family: 'Open Sans';*/
+	font-family: 'Arial';
 	font-size: 62.5%;
 	text-align: center;
 	background-color: #f4f3f1;
@@ -99,7 +99,8 @@ form input[type="button"] {
 	text-transform: uppercase;
 	padding: 1em 0;
 }
-.how-it-works h2:after ,.why-choose-us h2:after {
+/* 添加三个模块所需的短线 */
+.how-it-works h2:after ,.why-choose-us h2:after ,.test-recent p:after {
 	display: block;
 	content: "";
 	background-color: #999a9e;
@@ -107,6 +108,7 @@ form input[type="button"] {
 	height: .1em;
 	margin: .4em auto; 
 }
+
 .how-it-works li {
 	position: relative;
 }
@@ -215,10 +217,81 @@ form input[type="button"] {
 	color: #92929a;
 }
 .test-recent {
-	margin: 0 auto;
+	margin: 0 auto 5em;
 	width: 80%;
 	border-top: 1px solid #fafaf8;
 }
+.test-recent .ul-tab {
+	margin: 6em auto 3em auto;
+	width: 24em;
+	height: 3.5em;
+	border: 1px solid #676570;
+	border-radius: 2px;
+	background-color: #60677a;
+}
+.test-recent .tab {
+	display: block;
+	float: left;
+	width: 50%;
+	line-height: 3.5em;
+	text-align: center;
+	font-weight: bold;
+	color: #feffff;
+}
+.test-recent .tab:last-child {
+	background-color: #f4f3f1;
+	color: #62656c;
+}
+.icon-right {
+	padding-bottom: 2em;
+	display: inline-block;
+	color: #e3e3e3;
+}
+.test-recent p {
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 30px;
+	color: #636675;
+}
+.test-recent .ul-intro {
+	margin: 0 auto;
+	width: 65%;
+}
+.test-recent .ul-intro li {
+	float: left;
+	width: 33.33%;
+	height: 33.33%;
+}
+.test-recent h3 {
+	height: 30px;
+	margin-top: 10px;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 20px;
+	color: #656469;
+}
+.test-recent h4 {
+	font-size: 14px;
+	line-height: 22px;
+	color: #99999b;
+}
+.test-recent .active h3 , .test-recent .active h4 {
+	display: block;
+}
+.test-recent .ul-intro img {
+	width: 33.33%;
+	height: 33.33%;
+	border-radius: 50%;
+	opacity: .3;
+}
+.test-recent .active img {
+	padding: 5px;
+	width: 32%;
+	height: 32%;
+	border: 1px solid #dbdad8;
+	border-radius: 50%;
+	opacity: 1;
+} 
 br {
 	clear: both;
 }
